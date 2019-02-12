@@ -1,0 +1,25 @@
+body{
+  background-color: #4a4a48;
+}
+label{
+  font-size: 20px;
+}
+.btn-text {
+    color: #e4e4e0;
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-transform: none;
+}
+.btn {
+    background: none;
+    border-radius: 0;
+    font-size: 1.0769230769em;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all .2s linear;
+}

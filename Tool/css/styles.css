@@ -1,0 +1,119 @@
+.background {
+  background: url(../img/background3.jp) no-repeat;
+  background-attachment: ;
+
+  /*background-size: cover;*/
+}
+
+body {
+  font-family: 'KoHo', sans-serif;
+}
+
+p{
+  font-size: 20px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li
+{
+  position: relative;
+}
+
+.bio{
+  margin: auto;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: left;
+}
+
+.footer-legal li {
+  display: inline-block;
+  margin: 20px auto;
+  padding-left: 25px;
+
+}
+
+.footer-credits {
+  margin: 20px auto;
+  float: right;
+
+}
+
+
+.img-description {
+  position: absolute;
+      top: 50%;
+      background: rgb(29, 106, 154, 0.72);
+      color: #fff;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity .2s, visibility .2s;
+      width: 100%;
+}
+
+
+
+li:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.undertow {
+  height: 200px;
+  width: 257px;
+}
+
+.aenima {
+  height: 200px;
+  width: 257px;
+}
+.lateralus{
+  height: 200px;
+  width: 257px;
+}
+.lateralus{
+  height: 200px;
+  width: 257px;
+
+}
+.days{
+  height: 200px;
+  width: 257px;
+}
+.art {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%
+
+
+}
+.art li {
+  text-align: center;
+  width: 257px;
+  margin: auto auto 15px;
+  /* display: inline-block; */
+}
+
+.social .footer-legal li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social, .footer-legal {
+  float: left;
+  min-width: 150px;
+
+}
